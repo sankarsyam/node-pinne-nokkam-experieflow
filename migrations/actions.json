@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "596e471297aa3418cce56110",
+    "name": "Give Keys",
+    "description": "The Guest’s room was isready, please give keys",
+    "needsCompletionConfirmation": true,
+    "expiresInMinutes": "5",
+    "actors": [
+      "bellhop",
+      "frontDesk",
+      "staffBoy"
+    ],
+    "offerLimit": "1",
+    "textMessage": "Your room is ready.",
+    "scriptSample": "Hey Sree, Room is ready. Enjoy your day.",
+    "directives": [
+      "Give guest a relaxed service"
+    ],
+    "isTriggerEvent": true
+  },
+  {
+    "_id": "596e471297aa3418cce56111",
+    "name": "Offer Guest Free Drink",
+    "description": "Guest's room isn't ready, offer them a free drink at the bar",
+    "needsCompletionConfirmation": false,
+    "expiresInMinutes": "5",
+    "actors": [
+      "bellhop",
+      "staffBoy"
+    ],
+    "offerLimit": "1",
+    "textMessage": "Your room isn't quite ready yet, please head to the hotel bar for a free drink on us.",
+    "scriptSample": "Since your room isn't ready, we would like to offer you a drink on us.",
+    "directives": [
+      "Inform guest of room not being ready",
+      "Offer guest a free drink",
+      "Direct them to bar",
+      "Offer to hold their luggage until room is ready"
+    ],
+    "isTriggerEvent": true
+  },
+  {
+    "_id": "596e471297aa3418cce56112",
+    "name": "Free Golf Cart",
+    "description": "Offer the guest a free golf cart",
+    "needsCompletionConfirmation": false,
+    "expiresInMinutes": "5",
+    "actors": [
+      "bellhop",
+      "staffBoy"
+    ],
+    "offerLimit": "1",
+    "textMessage": "We welcomes you.",
+    "scriptSample": "We noticed that you brought your clubs with you, we have some open tee times if you would like a to use a golf cart, on us",
+    "directives": [
+    ],
+    "isTriggerEvent": false
+  }
+]

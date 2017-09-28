@@ -1,0 +1,9 @@
+{
+  "name": "Experience Flow",
+  "version": "1.0.0",
+  "description": "API for experience flow.",
+  "apidoc": {
+    "title": "Custom apiDoc browser title",
+    "url" : "https://api.github.com/v1"
+  }
+}

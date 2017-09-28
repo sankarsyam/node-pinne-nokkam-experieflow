@@ -1,0 +1,61 @@
+{
+  "name": "hospitality-experienceflows-service",
+  "version": "1.0.0",
+  "description": "hospitality-experienceflows-service",
+  "main": "server.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "babel-node server.js --exec babel-node --presets es2015,stage-2",
+    "postinstall": "apidoc -i routes/ -o documentation",
+    "builddocs": "apidoc -i routes/ -o documentation",
+    "test": "cross-env NODE_ENV=test mocha --timeout 15000 --compilers js:babel-core/register ./test ",
+    "migrate": "cross-env MIGRATE_dbConnectionUri=http://localhost:27017/migrations  migrate --md ./migrations/ --collection location"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CognizantStudio/hospitality-experienceflows-service.git"
+  },
+  "author": "Cognizant Technology Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/CognizantStudio/hospitality-experienceflows-service.git#README.md",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongo-querystring": "^4.1.1",
+    "mongoose": "^4.11.3",
+    "mongoose-unique-validator": "^1.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "expect": "^1.20.2",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.5.1",
+    "mocha": "^3.4.2",
+    "mongoose-migrate": "^0.2.4",
+    "prettier": "^1.3.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --trailing-comma es5 --write",
+      "git add"
+    ]
+  }
+}

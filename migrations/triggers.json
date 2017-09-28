@@ -1,0 +1,273 @@
+[
+  {
+    "_id": "597b66086e212320e0a7a130",
+    "type": "Reservation",
+    "subType": "isCheckedIn",
+    "subTypePath": "isCheckedIn",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a131",
+    "type": "Reservation",
+    "subType": "arrivalDate",
+    "subTypePath": "arrivalDate",
+    "values": [
+      "Day Before",
+      "Day of",
+      "Day After"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a132",
+    "type": "Reservation",
+    "subType": "departureDate",
+    "subTypePath": "departureDate",
+    "values": [
+      "Day Before",
+      "Day of",
+      "Day After"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a133",
+    "type": "Reservation",
+    "subType": "numberOfAdults",
+    "subTypePath": "numberOfAdults",
+    "values": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a134",
+    "type": "Reservation",
+    "subType": "numberOfChildren",
+    "subTypePath": "numberOfChildren",
+    "values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a135",
+    "type": "Reservation",
+    "subType": "type",
+    "subTypePath": "type",
+    "values": [
+      "Hotel",
+      "Golf",
+      "Spa",
+      "Restaurant"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a136",
+    "type": "Room",
+    "subType": "isReady",
+    "subTypePath": "isReady",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a137",
+    "type": "Profile",
+    "subType": "birthdayDate",
+    "subTypePath": "birthdayDate",
+    "values": [
+      "Day Before",
+      "Day of",
+      "Day After"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a138",
+    "type": "Profile",
+    "subType": "marriedDate",
+    "subTypePath": "marriedDate",
+    "values": [
+      "Day Before",
+      "Day of",
+      "Day After"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a139",
+    "type": "Profile",
+    "subType": "hasBeenInLobby",
+    "subTypePath": "currentStayPreferences.hasBeenInLobby",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13a",
+    "type": "Profile",
+    "subType": "broughtGolfClubs",
+    "subTypePath": "currentStayPreferences.broughtGolfClubs",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13b",
+    "type": "Profile",
+    "subType": "likesGolf",
+    "subTypePath": "preferences.likesGolf",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13c",
+    "type": "Profile",
+    "subType": "likesSpa",
+    "subTypePath": "preferences.likesSpa",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13d",
+    "type": "Profile",
+    "subType": "wantsPromotions",
+    "subTypePath": "preferences.wantsPromotions",
+    "values": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13e",
+    "type": "Profile",
+    "subType": "gender",
+    "subTypePath": "gender",
+    "values": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a13f",
+    "type": "Location",
+    "subType": "Lobby",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b89",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a140",
+    "type": "Location",
+    "subType": "Front Desk",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8a",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a141",
+    "type": "Location",
+    "subType": "Restaurant",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8c",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a142",
+    "type": "Location",
+    "subType": "Golf Course",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8d",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a143",
+    "type": "Location",
+    "subType": "Spa",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8b",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a144",
+    "type": "Location",
+    "subType": "Pool",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8e",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a145",
+    "type": "Location",
+    "subType": "Hotel",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b91",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a146",
+    "type": "Location",
+    "subType": "Vallet",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b8f",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a147",
+    "type": "Location",
+    "subType": "Airport",
+    "subTypePath": null,
+    "location": "597a3cf5f933ec164ebf1b90",
+    "values": [
+      "Inside",
+      "Outside"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a148",
+    "type": "Action",
+    "subType": "Offer Guest Free Drink",
+    "subTypePath": "isCompleted",
+    "action": "596e471297aa3418cce56111",
+    "values": [
+      "Completed",
+      "Not Completed"
+    ]
+  },
+  {
+    "_id": "597b66086e212320e0a7a149",
+    "type": "Action",
+    "subType": "Give Keys",
+    "subTypePath": "isCompleted",
+    "action": "596e471297aa3418cce56110",
+    "values": [
+      "Completed",
+      "Not Completed"
+    ]
+  }
+]

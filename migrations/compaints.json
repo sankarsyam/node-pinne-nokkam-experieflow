@@ -1,0 +1,30 @@
+[
+  {
+    "_id":"596e471297aa3418cce56600",
+    "name": "A/C needs to be adjusted",
+    "description": "Room is temperature is too low.",
+    "resolved": true,
+    "textMessage": "A/C needs to be adjusted to 27 Deg"
+  },
+  {
+    "_id":"596e471297aa3418cce56601",
+    "name": "Needs more towel in the room",
+    "description": "Needs more towel in the room",
+    "resolved": true,
+    "textMessage": "Needs more towel in the room"
+  },
+  {
+    "_id":"596e471297aa3418cce56602",
+    "name": "Room delivery is very slow",
+    "description": "Room delivery is very slow",
+    "resolved": true,
+    "textMessage": "Room delivery is very slow"
+  },
+  {
+    "_id":"596e471297aa3418cce56603",
+    "name": "TV remote not working",
+    "description": "TV remote not working",
+    "resolved": true,
+    "textMessage": "TV remote not working"
+  }        
+]

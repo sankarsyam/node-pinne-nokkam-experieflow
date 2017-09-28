@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "597a3cf5f933ec164ebf1b8a",
+    "name": "Front Desk",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 8
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b89",
+    "name": "Lobby",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 8
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b8d",
+    "name": "Golf Course",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 20
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b8b",
+    "name": "Spa",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 8
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b8c",
+    "name": "Restaurant",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 10
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b8e",
+    "name": "Pool",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 10
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b91",
+    "name": "Hotel",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 50
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b8f",
+    "name": "Vallet",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 10
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b90",
+    "name": "Airport",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 100
+  },
+  {
+    "_id": "597a3cf5f933ec164ebf1b82",
+    "name": "Room",
+    "longitude": 23.2342342,
+    "latitude": 41.23423,
+    "radius": 10
+  }
+]

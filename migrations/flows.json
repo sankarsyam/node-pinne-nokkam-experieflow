@@ -1,0 +1,51 @@
+[
+  {
+    "action": "596e471297aa3418cce56110",
+    "name": "Mobile Check-In",
+    "isActive": true,
+    "triggerCriteria": [
+      {
+        "trigger": "597b66086e212320e0a7a136",
+        "value": "True"
+      },
+      {
+        "trigger": "597b66086e212320e0a7a13f",
+        "value": "Inside"
+      }
+    ]
+  },
+  {
+    "action": "596e471297aa3418cce56111",
+    "name": "Room Not Ready, Free Drink",
+    "isActive": true,
+    "triggerCriteria": [
+      {
+        "trigger": "597b66086e212320e0a7a136",
+        "value": "True"
+      },
+      {
+        "trigger": "597b66086e212320e0a7a13f",
+        "value": "Inside"
+      }
+    ]
+  },
+   {
+    "action": "596e471297aa3418cce56112",
+    "name": "Free Golf Cart",
+    "isActive": false,
+    "triggerCriteria":[
+      {
+        "trigger": "597b66086e212320e0a7a13a",
+        "value": "True"
+      },
+      {
+        "trigger": "597b66086e212320e0a7a142",
+        "value": "Inside"
+      },
+      {
+        "trigger": "597b66086e212320e0a7a13d",
+        "value": "True"
+      }
+    ]
+  }
+]
